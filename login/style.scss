@@ -7,7 +7,7 @@ body{
 }
 
 .main{
-    height: 80vh;
+    height: 81.8vh;
     width: 100vw;
     background-color: rgb(240, 242, 245);
 
@@ -19,6 +19,11 @@ body{
         display: block;
         padding: 12px 0 112px;
         // background-color: wheat;
+        display: flex;
+        *{
+            border: 1px solid yellow;
+        }
+
         .left{
             display: flex;
             flex-direction: column;
@@ -53,6 +58,62 @@ body{
                     display: inline;
                 }
             }
-        }   
+        }
+
+        .right{
+            // position: relative;
+            // left: 55vw;
+            // display: inline-block;
+            margin-left: 12vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            form{
+                display: inline-block;
+                width: 396px;
+                text-align: center;
+                background-color: white;
+                box-sizing: border-box;
+
+                *{
+                    margin: 10px;
+                }
+                input ,#login {
+                    border-radius: 5px;
+                    width: 364px;
+                    line-height: 1.34;
+                    padding: 10px 10px;
+                    // margin: auto;
+
+                }
+                input{
+                    border: 1px solid rgb(221, 223, 226);
+                    font-size: large;
+                
+                        &::placeholder{
+                            color: rgb(144, 148, 156);
+                        }
+
+                    &:focus { 
+                        outline:none;
+                        border-color: rgb(24, 119, 242);
+                        box-shadow:0 0 3px rgb(24, 119, 242);
+                        
+                        &::placeholder{
+                            color: rgb(190, 195, 201);
+                        }
+                    }
+                }
+                #login{
+                    background-color: rgb(24, 119, 242);
+                    color: white;
+                    font-size: larger;
+                    font-weight: bold;
+                }
+            }
+        }
+
+
     }
 }
