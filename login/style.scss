@@ -7,29 +7,29 @@ body{
 }
 
 .main{
-    height: 81.8vh;
+    height: 719px;
     width: 100vw;
     background-color: rgb(240, 242, 245);
 
     .submain{
         width: 100%;
-        height: 70%;
+        height: 698px;
         top: 12%;
         position: relative;
         display: block;
-        padding: 12px 0 112px;
+        padding: 10px 0 112px;
         // background-color: wheat;
         display: flex;
-        *{
-            border: 1px solid yellow;
-        }
+        // *{
+        //     border: 1px solid yellow;
+        // }
 
         .left{
             display: flex;
             flex-direction: column;
             // background-color: white;
             width: 35vw;
-            margin-left: 9vw;
+            margin-left: 8.9vw;
             .img{
                 width: 500px;
                 // background-color: red;
@@ -64,32 +64,38 @@ body{
             // position: relative;
             // left: 55vw;
             // display: inline-block;
-            margin-left: 12vw;
+            margin-left: 12.5vw;
             display: flex;
-            justify-content: center;
+            // justify-content: center;
+            margin-top: 35px;
             align-items: center;
+            flex-direction: column;
 
             form{
+                background-color: white;
+                border-radius: 7px;
+                box-shadow: 0px 5px 14px #ccc;
                 display: inline-block;
                 width: 396px;
                 text-align: center;
-                background-color: white;
                 box-sizing: border-box;
+                padding-top: 10px;
+                padding-bottom: 17px;
+                
+                
 
-                *{
-                    margin: 10px;
-                }
                 input ,#login {
-                    border-radius: 5px;
+                    border-radius: 6px;
                     width: 364px;
                     line-height: 1.34;
-                    padding: 10px 10px;
                     // margin: auto;
 
                 }
                 input{
+                    padding: 12.84px 10px 15px 17px;
                     border: 1px solid rgb(221, 223, 226);
-                    font-size: large;
+                    font-size: 17px;
+                    margin: 7px;
                 
                         &::placeholder{
                             color: rgb(144, 148, 156);
@@ -102,15 +108,53 @@ body{
                         
                         &::placeholder{
                             color: rgb(190, 195, 201);
+
                         }
                     }
                 }
                 #login{
+                    padding: 11px 10px;
                     background-color: rgb(24, 119, 242);
                     color: white;
-                    font-size: larger;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 8px;
+                    border: none;
+                    margin-bottom: 10px;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgb(24, 119, 242);
+                    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+
+                }
+                #forgot{
+                    margin: 7px;
+                }
+                hr{
+                    height: 1px;
+                    background-color: #ccc;
+                    border: none;
+                    margin: 18px;
+                }
+                #new{
+                    margin: 7px;
+                    font-size: 17px;
+                    line-height: 48px;
+                    padding: 0 16px;
+                    color: white;
+                    background-color: #42b72a;
+                    border: none;
+                    border-radius: 6px;
                     font-weight: bold;
                 }
+            }
+            p{
+                padding-top: 15px;
+                font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+                font-size: 14px;
             }
         }
 
