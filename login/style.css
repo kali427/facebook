@@ -253,4 +253,13 @@ body {
   -webkit-filter: brightness(35%);
           filter: brightness(35%);
 }
+
+#bottom .inside .footer {
+  margin-top: 23px;
+}
+
+#bottom .inside .footer p {
+  font-size: .71rem;
+  color: #8a9491;
+}
 /*# sourceMappingURL=style.css.map */
