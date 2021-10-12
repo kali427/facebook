@@ -233,7 +233,7 @@ body{
 
 @media (max-width:993px) {
     .main .submain .left .heading {
-        width: 400px;
+        width: 80vw;
     }
     .submain{
         display: flex;
@@ -249,9 +249,30 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 80vw;
         }
     }
     .main .submain .right{
         margin-left: 0px;
+    }
+}
+
+
+
+@media (max-width:474px) {
+    .main .submain .right form {
+        width: 300px;
+    }
+    .main .submain .right form input {
+        width: 240px;
+        line-height: 1;
+    }
+    .main .submain .right form #login {
+        width: 240px;
+        line-height: 1;
+    }
+    .main .submain .right form #new {
+        line-height: 37px;
+        padding: 0 13px;
     }
 }
