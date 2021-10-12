@@ -199,5 +199,21 @@ body{
         .lang a{
             cursor: text;
         }
+        hr{
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+        }
+        .tools{
+            a{
+                padding-right: 14.7px;
+                img{
+                    height: 12px;
+                    // filter: grayscale(80%);
+                    filter: brightness(35%);
+                    
+                }
+            }
+        }
     }
 }
