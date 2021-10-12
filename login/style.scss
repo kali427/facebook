@@ -224,3 +224,34 @@ body{
         }
     }
 }
+
+@media (max-width:1247px) {
+    .main .submain .left .heading {
+        width: 320px;
+    }
+}
+
+@media (max-width:993px) {
+    .main .submain .left .heading {
+        width: 400px;
+    }
+    .submain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .submain .left {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        .img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .main .submain .right{
+        margin-left: 0px;
+    }
+}
