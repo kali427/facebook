@@ -154,6 +154,11 @@ body {
   margin: 8px;
   border: none;
   margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.main .submain .right form #login:hover {
+  background-color: #166fe5;
 }
 
 .main .submain .right form a {
@@ -166,6 +171,10 @@ body {
 
 .main .submain .right form #forgot {
   margin: 7px;
+}
+
+.main .submain .right form #forgot:hover {
+  text-decoration: underline;
 }
 
 .main .submain .right form hr {
@@ -185,12 +194,26 @@ body {
   border: none;
   border-radius: 6px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.main .submain .right form #new:hover {
+  background-color: #36a420;
 }
 
 .main .submain .right p {
   padding-top: 15px;
   font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
   font-size: 14px;
+}
+
+.main .submain .right p .page {
+  text-decoration: none;
+  color: black;
+}
+
+.main .submain .right p .page:hover {
+  text-decoration: underline;
 }
 
 .font {
@@ -228,10 +251,28 @@ body {
   font-weight: 500;
 }
 
+#bottom .inside .lang a:hover, #bottom .inside .tools a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 #bottom .inside .lang button, #bottom .inside .tools button {
   font-size: larger;
   line-height: 0.73;
   border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#bottom .inside .lang button:hover, #bottom .inside .tools button:hover {
+  background-color: #dddfe2;
+}
+
+#bottom .inside .lang #active {
+  cursor: text;
+}
+
+#bottom .inside .lang #active:hover {
+  text-decoration: none;
 }
 
 #bottom .inside .lang a {
@@ -271,6 +312,7 @@ body {
 
 @media (max-width: 993px) {
   .main .submain .left .heading {
+    font-size: 20px;
     width: 80vw;
   }
   .submain {
@@ -311,6 +353,9 @@ body {
   }
   .main .submain .right {
     margin-left: 0px;
+  }
+  #bottom .inside .footer {
+    padding-bottom: 10px;
   }
 }
 
