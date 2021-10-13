@@ -306,14 +306,14 @@ body {
 
 @media (max-width: 1247px) {
   .main .submain .left .heading {
-    width: 320px;
+    width: 396px;
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 993px) {
   .main .submain .left .heading {
     font-size: 20px;
-    width: 80vw;
   }
   .submain {
     display: -webkit-box;
@@ -360,6 +360,9 @@ body {
 }
 
 @media (max-width: 474px) {
+  .main .submain .left .heading {
+    width: 300px;
+  }
   .main .submain .right form {
     width: 300px;
   }
